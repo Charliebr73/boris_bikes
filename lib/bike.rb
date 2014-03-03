@@ -1,5 +1,5 @@
 class Bike
-	
+
 	# the initialize method is always called when you create a new
 	# class by typing Bike.new
 	def initilize
@@ -17,6 +17,10 @@ class Bike
 	def break
 		# and any instance method can update them
 		@broken = true
+	end
+
+	def fix
+		@broken = false
 	end
 
 end
